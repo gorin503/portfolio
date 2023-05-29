@@ -1,0 +1,58 @@
+h2, h3, p {
+  margin: 0;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.8;
+  color: #000;
+}
+
+.bottom-space {
+  margin-bottom: 32px;
+}
+
+.hero {
+  margin-top: 56px;
+  padding: 128px;
+}
+
+.works, .about {
+  background: #eee;
+}
+
+.works, .skills, .about, .contact {
+  padding: 64px;
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+footer a {
+  color: white;
+  font-size: 32px;
+}
+
+/* small screen */
+@media (max-width: 768px) {
+  .hero img {
+    margin-top: 48px;
+  }
+
+  .about img {
+    margin-bottom: 48px;
+  }
+}
